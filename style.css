@@ -79,6 +79,12 @@ p {
     margin: 3px auto;
 }
 
+.hr_horizontal {
+    width: 450px;
+    background-color: #3a3d44;
+    border: 1px solid #3a3d44;
+}
+
 .border {
     background: #010409;
     border: 1px solid #3a3d44;
