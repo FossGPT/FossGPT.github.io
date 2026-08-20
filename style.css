@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-main {
+.main {
     flex: 1;
     width: 100%;
 }
@@ -32,8 +32,43 @@ p {
     color: #e4e9ef
 }
 
+.nav {
+    background: #010409;
+    border: 1px solid #3a3d44;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    background-color: #010409;
+    border: 1px solid #3a3d44; 
+    width: 200px ;
+    height: 30px;
+    color: #e4e9ef ;
+}
+
+.search_position {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.social_icon {
+    border-radius: 30%;   
+    width: 30px;
+    height: 30px;
+}
+
+.social_icons {
+    display: flex;
+    gap: 5px
+}
+
 .phone_perfil {
-    border: 2px solid #e4e9ef;
+    border: 1px solid #3a3d44;
     border-radius: 50%;
 
     width: 100px;      
@@ -44,20 +79,9 @@ p {
     margin: 3px auto;
 }
 
-.social_icons {
-    border-radius: 30%;   
-
-    width: 30px;
-    height: 30px;
-
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-}
-
 .border {
     background: #010409;
-    border: 2px solid #e4e9ef;
+    border: 1px solid #3a3d44;
     border-radius: 10px;
     padding: 10px;
 
@@ -68,12 +92,6 @@ p {
     flex-direction: column;
 
     margin: 35px auto;
-}
-
-.footer {
-    background: #010409;
-    padding: 10px;
-    text-align: center;
 }
 
 .projects {
@@ -88,4 +106,10 @@ p {
     margin-right: 3px;
     margin-left: 3px;
     color: #5388d0;
+}
+
+.footer {
+    background: #010409;
+    padding: 1px;
+    text-align: center;
 }
